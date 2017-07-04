@@ -1,0 +1,12 @@
+//Placeholders
+%flexColumnFlow{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+%flexRowFlow{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+}

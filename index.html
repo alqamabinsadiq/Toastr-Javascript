@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/main.css" />
+</head>
+
+<body>
+    <div class="header">
+        <span class="heading">toaster</span>
+    </div>
+    <div id="alqama" class="mainBody">
+        <div class="mainDiv">
+            <div class="inputField">
+                <div>
+                    Title
+                </div>
+                <div>
+                    <input id="title" type="text" />
+                </div>
+            </div>
+            <div class="inputField">
+                <div>
+                    Message
+                </div>
+                <div>
+                    <textarea id="message"></textarea>
+                </div>
+            </div>
+            <div class="inputField">
+                <div>
+                    Type
+                </div>
+                <div>
+                    <input type="radio" id="r1" name="type" value="success">Success</input>
+                    <input type="radio" id="r2" name="type" value="warning">Warning</input>
+                    <input type="radio" id="r3" name="type" value="error">Error</input>
+                </div>
+            </div>
+            <div>
+                <button type="button" onclick="myFunction()"> Show Toast</button>
+            </div>
+        </div>
+        <div id="leftTop" class="top-left">
+            <div id="snackbar" class="toastContainer">
+            </div>
+        </div>
+        <script src="./JS/main.js" type="text/javascript"></script>
+    </div>
+</body>
+
+</html>
